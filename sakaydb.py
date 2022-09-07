@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 import os
 
+chown $USER ~/.ssh/config
+chmod 644 ~/.ssh/config
 
 class SakayDBError(ValueError):
     pass
